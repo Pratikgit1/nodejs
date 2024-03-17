@@ -9,7 +9,7 @@ router.get("/notes/:noteid", mycontroller.getNotesById);
 router.post("/notes", mycontroller.addNotes);
 router.put("/notes", mycontroller.editNotes);
 router.get("/user/:name", mycontroller.user1);
-router.get("/user", mycontroller.user2);
+router.get("/user", mycontroller.user2); 
 
 router.get("/mynotes", notesController.getNotes);
 router.post("/mynotes", notesController.newNotes);
